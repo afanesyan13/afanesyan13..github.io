@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav {
+    position: fixed;
+    width: 100%;
+    font-family: "Bruno Ace", cursive;
+}
+p {
+    font-family: "Roboto Condensed", sans-serif;
+}
+.mn {
+    font-family: "Bruno Ace", cursive;
+}
+
+.img_tlt {
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+/* Menu */
+.menu {
+    background-color: #383e4c;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px 0 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #e2e1e5;
+    border: 0.5px solid;
+    padding: 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+/* Cover */
+.cover {
+    background-image: url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e2e1e5;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+.cover_wbs {
+    text-align: center;
+    margin-top: 200px;
+    font-family: "Bruno Ace", cursive;
+}
+.cover_wbs h1 {
+    font-size: 50px;
+}
+.cover_wbs p {
+    padding-top: 30px;
+    font-size: 20px;
+}
+/* Main*/
+.m_section {
+    margin-top: 10px;
+}
+.big_div1 {
+    height: 535px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* DIV 1 */
+.div1 {
+    width: 300px;
+    height: auto;
+    background-color: #dfe9ff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.div1 img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+.div1 p {
+    padding: 10px 5px 115px;
+}
+.div1 a {
+    text-decoration: none;
+    background-color: green;
+    color: #e2e1e5;
+    border: 0.5px solid green;
+    padding: 8px;
+    margin-left: 110px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* DIV 2*/
+.div2 {
+    width: 300px;
+    height: auto;
+    background-color: #dfe9ff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.div2 img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+.div2 p {
+    padding: 10px 5px 45px;
+}
+.div2 a {
+    text-decoration: none;
+    background-color: green;
+    color: #e2e1e5;
+    border: 0.5px solid green;
+    padding: 8px;
+    border-radius: 3px;
+    margin-left: 110px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* DIV 3 */
+
+.div3 {
+    width: 300px;
+    height: auto;
+    background-color: #dfe9ff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.div3 img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px 5px 0 0;
+    -webkit-border-radius: 5px 5px 0 0;
+    -moz-border-radius: 5px 5px 0 0;
+    -ms-border-radius: 5px 5px 0 0;
+    -o-border-radius: 5px 5px 0 0;
+}
+.div3 p {
+    padding: 10px 5px 81px;
+}
+.div3 a {
+    text-decoration: none;
+    background-color: green;
+    color: #e2e1e5;
+    border: 0.5px solid green;
+    padding: 8px;
+    border-radius: 3px;
+    margin-left: 110px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+/* SECOND SECTION */
+.big_div2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.big_div2 img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.div1-1 {
+    width: 425px;
+    height: auto;
+    background-color: #dfe9ff;
+    border-radius: 5px;
+}
+.div1-1 p {
+    padding: 20px 10px 40px;
+}
+.div2-2 {
+    width: 425px;
+    height: auto;
+    background-color: #dfe9ff;
+    border-radius: 5px;
+}
+.img2 {
+    height: 285px;
+}
+.div2-2 p {
+    padding: 20px 10px 40px;
+}
